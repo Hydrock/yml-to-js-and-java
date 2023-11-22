@@ -1,0 +1,18 @@
+version: 1.0
+settings:
+  language: "Russian"
+  enable_logging: true
+  max_users: 10
+
+users:
+  - name: "Иван"
+    age: 34
+    role: "Администратор"
+  - name: "Мария"
+    age: 28
+    role: "Пользователь"
+
+database:
+  host: "localhost"
+  port: 5432
+  name: "main_db"

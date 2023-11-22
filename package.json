@@ -1,0 +1,26 @@
+{
+  "name": "yml-to-js-and-java",
+  "version": "1.0.0",
+  "description": "Generation code from yml for js and java in same time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "node scripts/yml-to-js.js",
+    "build-java": "node scripts/yml-to-java.js",
+    "build": "npm run clear && npm run build-js && npm run build-java",
+    "clear": "rm -rf ./.dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hydrock/yml-to-js-and-java.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hydrock/yml-to-js-and-java/issues"
+  },
+  "homepage": "https://github.com/Hydrock/yml-to-js-and-java#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
